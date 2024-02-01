@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 550px;
+    margin: auto;
+}
+.container-fluid{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 10px;
+}
+.top-hader{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+.logo{
+    /* background-color: aquamarine; */
+    width: 20%;
+    height: 100%;
+}
+.ads{
+    /* background-color: chartreuse; */
+    width: 80%;
+    height: 100%;
+}
+.logo img{
+    height: 100%;
+}
+.ads img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+}
+.hader{
+    /* background-color: blue; */
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hader ul li{
+    list-style-type: none;
+}
+.hader ul li{
+    float: left;
+}
+.hader ul li a{
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.hader ul li a:hover{
+    color: black;
+}
+.full-box{
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    height: 85%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    
+}
+.box-left{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 70%;
+    margin-right: 10px;
+}
+.box-right{
+    /* background-color: maroon; */
+    width: 30%;
+    height: 100%;
+}
+.box1{
+    /* background-color: blue; */
+    width: 100%;
+    height: 48.7%;
+}
+.box1 img{
+    height: 100%;
+    width: 100%;
+}
+.box1:nth-child(2){
+    margin-top: 10px;
+}
+.box-in{
+    /* background-color: magenta; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.box-img1{
+    /* background-color: aquamarine; */
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+.box-img2{
+    /* background-color: mediumblue; */
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+.box-img1 img{
+    width: 100%;
+    height: 100%;
+}
+.box-img2 img{
+    width: 100%;
+    height: 100%;
+}
+.top-item{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: magenta;
+    left: 0;
+    top: 10px;
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+}
+.top-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-item{
+    color: white;
+}
+.top-item p{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.title{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    transition: 0.8s;
+}
+.title p{
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.time{
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+.time p{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.text-title{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    transition: 0.8s;
+    z-index: -1;
+}
+.text-title p{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+.box-img1:hover .title{
+    position: absolute;
+    top: 60px;
+}
+.box-img1:hover .text-title{
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+.box-img1:hover .title p{
+    color: red;
+}
+.box-img2 .title{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    transition: 0.8s;
+}
+.box-img2 .title p{
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.box-img2 .time{
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+.box-img2 .time p{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.box-img2 .text-title{
+    position: absolute;
+    left: 0;
+    top: 180px;
+    transition: 0.8s;
+    z-index: -1;
+}
+.box-img2 .text-title p{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+.box-img2:hover .title{
+    position: absolute;
+    top: 60px;
+}
+.box-img2:hover .text-title{
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+.box-img2:hover .title p{
+    color: red;
+}
+.box2{
+    width: 80%;
+    height: 700px;
+    /* background-color: blue; */
+    margin-left: 135px;
+    margin-top: 30px;
+    margin: auto;
+    box-shadow: 2px 2px 3px ;
+}
+.style-box{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-box{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 40%;
+    /* background-color: rgb(56, 6, 6); */
+    margin: auto;
+    margin-top: 10px;
+}
+.box-item{
+    width: 33%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.contain-top{
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 10px;
+}
+.contain-top .box-left{
+    /* background-color: navajowhite; */
+    width: 70%;
+    height: 100%;
+    margin-left: 20px;
+}
+.contain-top .box-right{
+    /* background-color: lawngreen; */
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+}
+.on-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    background-color: palegreen4
+}
+.img-box{
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+}
+.box-lorem{
+    /* background-color: coral; */
+    width: 100%;
+    height: 40%;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+.smalll{
+    width: 23%;
+    height: 100%;
+    /* background-color: crimson; */
+}
+.smalll-up{
+    width: 100%;
+    height: 60%;
+    /* background-color: lightyellow; */
+}
+.smalll-down{
+    width: 100%;
+    height: 40%;
+    /* background-color: darkgoldenrod; */
+}
+.smalll-up img{
+    width: 100%;
+    height: 100%;
+}
+.box-right img{
+    width: 100%;
+}
+.inin{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+}
